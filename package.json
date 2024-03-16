@@ -4,8 +4,14 @@
   "description": "REST API for e-bitcommerce app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon node.js",
     "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "4.18.3",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.3"
   },
   "keywords": [
     "REST",
